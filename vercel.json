@@ -1,7 +1,8 @@
 {
   "rewrites": [
-    { "source": "/assets/(.*)", "destination": "/assets/$1" },
-    { "source": "/styles/(.*)", "destination": "/styles/$1" },
-    { "source": "/(.*)", "destination": "/dist/$1" }
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    }
   ]
 }
